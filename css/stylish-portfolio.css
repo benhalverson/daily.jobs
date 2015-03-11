@@ -147,6 +147,15 @@ hr.small {
 .toggle {
     margin: 5px 5px 0 0;
 }
+/* Mailchimp */
+
+#mc_embed_signup{
+    /*background:#fff;*/
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+}
+
+
 
 /* Header */
 
