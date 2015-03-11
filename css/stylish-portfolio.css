@@ -25,7 +25,7 @@ body {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 10em;
     font-weight: 700;
 }
 
@@ -149,10 +149,8 @@ hr.small {
 }
 /* Mailchimp */
 
-#mc_embed_signup{
-    /*background:#fff;*/
-    clear:left;
-    font:14px Helvetica,Arial,sans-serif;
+#mc_embed_signup .mc-field-group input {
+    width: 55%;
 }
 
 @font-face {
