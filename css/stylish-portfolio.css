@@ -150,7 +150,10 @@ hr.small {
 /* Mailchimp */
 
 #mc_embed_signup .mc-field-group input {
-    width: 55%;
+    width: 50%;
+}
+#mc_embed_signup form {
+    padding: 10px 0 10px 35%;
 }
 
 @font-face {
