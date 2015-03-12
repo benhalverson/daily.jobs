@@ -155,14 +155,18 @@ hr.small {
 #mc_embed_signup form {
     padding: 10px 0 10px 35%;
 }
-input#mce-EMAIL {
-    background-color: #ff0300;
-}
+/*input#mce-EMAIL {*/
+    /*background-color: #ff0300;*/
+/*}*/
 
 @font-face {
     font-family: "Carl-John";
     src:url("../fonts/carl_john.ttf") format("truetype");
 
+}
+h1.logo{
+    position: relative;
+    bottom: 220px;
 }
 .logo {
     font-family: "Carl-John", Sans-serif;
@@ -189,10 +193,15 @@ input#mce-EMAIL {
 }
 
 /* About */
-h3.text-center.tagline{
-    background-color: #ffffff;
+/*h3.text-center.tagline{*/
+    /*background-color: #ffffff;*/
 
+/*}*/
+h3.text-center.tagline{
+    position: relative;
+    bottom: 227px;
 }
+
 .about {
     padding: 50px 0;
 
