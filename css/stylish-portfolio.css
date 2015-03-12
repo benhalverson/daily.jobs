@@ -167,6 +167,9 @@ hr.small {
 .logo .colored-logo{
     color: #923736;
 }
+.logo-dot{
+    padding: 3px;
+}
 /* Header */
 
 
@@ -217,26 +220,10 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
+.social{
+    display: inline;
+    padding-right: 2%;
 }
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-/* Call to Action */
-
 .call-to-action {
     padding: 50px 0;
 }
