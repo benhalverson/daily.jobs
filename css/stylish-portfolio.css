@@ -166,7 +166,7 @@ hr.small {
 }
 h1.logo{
     position: relative;
-    bottom: 220px;
+    bottom: 150px;
 }
 .logo {
     font-family: "Carl-John", Sans-serif;
@@ -199,7 +199,7 @@ h1.logo{
 /*}*/
 h3.text-center.tagline{
     position: relative;
-    bottom: 227px;
+    bottom: 180px;
 }
 
 .about {
