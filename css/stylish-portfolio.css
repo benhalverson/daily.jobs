@@ -149,15 +149,21 @@ hr.small {
 }
 /* Mailchimp */
 
-#mc_embed_signup .mc-field-group input {
-    width: 50%;
-}
-#mc_embed_signup form {
-    padding: 10px 0 10px 35%;
-}
-/*input#mce-EMAIL {*/
-    /*background-color: #ff0300;*/
+/*#mc_embed_signup .mc-field-group input {*/
+    /*width: 50%;*/
 /*}*/
+/*#mc_embed_signup form {*/
+    /*padding: 10px 0 10px 35%;*/
+/*}*/
+
+/*input#mc-embedded-subscribe{*/
+    /*position: relative;*/
+    /*left: 50%;*/
+    /*bottom: 53px;*/
+/*}*/
+input#mce-EMAIL {
+    width: 29%;
+}
 
 @font-face {
     font-family: "Carl-John";
