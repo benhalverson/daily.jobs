@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Daily Jobs site">
+    <meta name="author" content="Ben Halverson">
+
+    <title>Daily.Jobs Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="fonts/carl_john.ttf" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <!-- Header -->
+<header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1 class="logo"><span class="colored-logo">Daily</span><span class="logo-dot">.</span><span class="colored-logo">Jobs</span></h1>
+        <h3 class="text-center tagline">Easier hunting faster results</h3>
+        <br>
+
+
+        <form class="navbar-form" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Signup Email">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+    </div>
+</header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <!--left side-->
+                        <div class="col-md-4">
+                            <img src="img/arsenii.jpg" class="img-circle" width="100" height="100"/>
+                        </div>
+                        <div>
+                            <strong>Arsenii Samoilov</strong><br>
+                            Founding Partner Daily.Jobs<br>
+                            SR. QA Engineer Imatchative Corporation<br>
+                            QA Engineer Mobitor Corporation<br>
+                            <ul class="list-unstyled">
+                                <li class="social"><a href="https://www.linkedin.com/in/arseniisamoilov"><i class="fa fa-2x fa-linkedin"></i></a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <!--right side-->
+                        <div class="col-md-4">
+                            <img src="img/ben-100x100.png" class="img-circle" width="100" height="100"/>
+                        </div>
+                        <div>
+                            <strong>Ben Halverson</strong><br>
+                            Founding Partner Daily.Jobs<br>
+                            Full-Stack Web Developer<br>
+                            Sales Rep SMC Corporation
+                            <ul class="list-unstyled">
+
+                                <li class="social"><a href="http://linkedin.com/in/benhalverson"><i class="fa fa-2x fa-linkedin"></i></a></li>
+                                <li class="social"><a href="http://github.com/benhalverson"><i class="fa fa-2x fa-github-square"></i></a></li>
+                                <li class="social"><a href="https://twitter.com/ben_halverson"><i class="fa fa-2x fa-twitter"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Daily.Jobs</strong>
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:hello@daily.jobs">hello@daily.jobs</a>
+                        </li>
+                    </ul>
+
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Daily.Jobs 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-2.1.3.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
