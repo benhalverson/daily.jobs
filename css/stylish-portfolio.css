@@ -294,3 +294,10 @@ footer {
 
     }
 }
+hr.about {
+    border: none;
+    height: 3px;
+    color: #080808;
+    background-color: #080808;
+    width: 300px;
+}
