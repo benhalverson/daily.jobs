@@ -62,13 +62,10 @@ h2.text-center{
 
 /* Custom Horizontal Rule */
 
-/*hr.small {
+hr.small {
     max-width: 100px;
-}*/
-.hr-advisors{
-  border-top: 1px solid #A9A9A9;
-  max-width: 50%;
 }
+
 /* Side Menu */
 
 #sidebar-wrapper {
