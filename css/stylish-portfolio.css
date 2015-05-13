@@ -157,7 +157,7 @@ hr.small {
     src:url("../fonts/carl_john.ttf") format("truetype");
 
 }
-h1.logo{
+/* h1.logo{
     position: relative;
     bottom: 150px;
 }
@@ -170,6 +170,15 @@ h1.logo{
 .logo-dot{
     padding: 3px;
 }
+ */
+.responsive-logo{
+  /* width: 400px; */
+  text-align: center;
+  display: inline;
+  position: relative;
+  bottom: 160px;
+}
+
 /* Header */
 
 
