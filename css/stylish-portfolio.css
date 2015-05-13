@@ -157,26 +157,11 @@ hr.small {
     src:url("../fonts/carl_john.ttf") format("truetype");
 
 }
-/* h1.logo{
-    position: relative;
-    bottom: 150px;
-}
-.logo {
-    font-family: "Carl-John", Sans-serif;
-}
-.logo .colored-logo{
-    color: #923736;
-}
-.logo-dot{
-    padding: 3px;
-}
- */
 .responsive-logo{
-  /* width: 400px; */
   text-align: center;
   display: inline;
   position: relative;
-  bottom: 160px;
+  bottom: 110px;
 }
 
 /* Header */
@@ -199,9 +184,9 @@ hr.small {
     /*background-color: #ffffff;*/
 
 /*}*/
-h3.text-center.tagline{
+.tagline{
     position: relative;
-    bottom: 180px;
+    bottom: 130px;
 }
 
 .about {
